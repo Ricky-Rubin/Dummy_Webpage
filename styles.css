@@ -1,17 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
-    font-family: Roboto;
-    padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    min-width: 80%;
+    min-width:105%;
     min-height: 100vh;
-    padding: 0 17%;
-    margin-top: 35px;
 }
 
-.header {
+.Page1 {
+    min-height: calc(100vh - 50px);
+    background-color: #1f2937;
+    padding: 0 16%;
+}
+
+.Page1 .first {
+    /* margin: 0 18%; */
+    padding-top: 30px;
+    margin-bottom: 10%;
+}
+
+header {
     display: flex;
     justify-content: space-between;
+    color: #f9faf8;
+}
+
+header .subs span {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .logo {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.Page1 .second {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second div,
+.second img {
+    width: 50%;
+}
+
+.second div h1 {
+    font-size: 41px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.second div p {
+    color: #e5e7eb;
+    font-size: 15px;
+}
+
+.second img {
+    width: 55%;
+    height: 230px;
+    /* margin: 0px 0px 0px 10px; */
+    padding-left: 53px;
+}
+
+.second button {
+    padding: 6px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    width: 137px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.Page2 {
+    min-height: calc(100vh - 140px);
+    padding: 0 16%;
+}
+
+.Page2 h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 38px;
+}
+
+.Page2 .p2-house {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Page2 .p2-house .frame {
+    width: 170px;
+    text-align: center;
+}
+
+.p2-house .frame .round {
+    width: 165px;
+    height: 165px;
+    margin-bottom: 12px;
+    /* border: 4px solid #3882f6; */
+    /* border-radius: 24px; */
+}
+
+.round img {
+    width: inherit;
+    height: inherit;
+    /* border-radius: 20px; */
+    object-fit: cover;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+.p2-house .frame p {
+    line-height: 1.3;
+    font-size: 15px;
+}
+
+.Page3 {
+    min-height: calc(100vh - 190px);
+    background-color: #e5e7eb;
+    padding: 0 23%;
+}
+
+.Page3 .quote {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #1f2937;
+    line-height: 1.3;
+    padding-top: 100px;
+    margin-bottom: 10px;
+}
+
+.Page3 .author {
+    text-align: end;
+    font-size: 21px;
+    padding-right: 35px;
+}
+
+.Page4 {
+    min-height: calc(100vh - 220px);
+    padding: 0 16%;
+    display: flex;
+    align-items: center;
+}
+
+.Page4 .first-house {
+    width: 100%;
+    height: 150px;
+    outline: none;
+    border: none;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.Page4 button {
+    width: 125px;
+    height: 37px;
+    margin-right: 130px;
+   background: none;
+   border: 2px solid #f9faf8;
+   color: #f9faf8;
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 10px;
+}
+
+.first-house .left {
+    margin-left: 90px;
+}
+
+.left {
+    line-height: 1.2;
+}
+
+.left .action {
+    font-size: 26px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.left .text {
+    color: #e5e7eb;
+}
+
+footer {
+    width: 100%;
+    height: 17vh;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    line-height: 17vh;
 }

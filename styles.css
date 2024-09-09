@@ -116,7 +116,7 @@ header .logo {
     height: inherit;
     /* border-radius: 20px; */
     object-fit: cover;
-    border: 4px solid #3882f6;
+    /* border: 4px solid #3882f6; */
     border-radius: 15px;
 }
 
